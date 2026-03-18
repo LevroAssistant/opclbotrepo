@@ -10,7 +10,7 @@ fi
 FFMPEG_BIN="${FFMPEG_BIN:-/usr/bin/ffmpeg}"
 WHISPER_BIN="${WHISPER_BIN:-/home/openclaw/.openclaw/workspace/tools/whisper.cpp/build/bin/whisper-cli}"
 WHISPER_MODEL="${WHISPER_CPP_MODEL:-/home/openclaw/.openclaw/workspace/tools/whisper.cpp/models/ggml-base.bin}"
-WHISPER_LANG="${WHISPER_LANG:-auto}"
+WHISPER_LANG="${WHISPER_LANG:-ru}"
 WHISPER_THREADS="${WHISPER_THREADS:-4}"
 
 if [[ ! -x "$FFMPEG_BIN" ]]; then
