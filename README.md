@@ -52,3 +52,4 @@ These can be overridden with env vars:
 
 - Telegram voice notes may arrive as OGG/Opus, so transcoding via `ffmpeg` is the reliable path.
 - The script prints transcript text to stdout for OpenClaw to consume.
+- For predominantly Russian voice messages, setting the wrapper default language to `ru` is usually more reliable than `auto`, especially for short Telegram voice notes.
